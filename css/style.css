@@ -96,20 +96,19 @@ body {
 
 #one {
     border-left: 5px solid;
-    border-image:linear-gradient(#FF9D78, #FF6549);
-    border-image-slice:1;
-    
+    border-image: linear-gradient(#FF9D78, #FF6549);
+    border-image-slice: 1;
+
 
 
 }
+
 #two {
     border-left: 5px solid;
-    border-image:linear-gradient(#0105FF, #01EFFF);
-    border-image-slice:1;
-   
+    border-image: linear-gradient(#0105FF, #01EFFF);
+    border-image-slice: 1;
+
     00F5FF
-
-
 }
 
 .single-experience {
@@ -147,3 +146,13 @@ body {
 
 
 /* experience section end */
+
+/* footer start */
+footer {
+    text-align: center;
+    font-size: 20px;
+    color: #696969;
+    margin-bottom: 30px;
+}
+
+/* footer end */
