@@ -25,12 +25,16 @@ body {
 
 .container {
     display: flex;
-    margin: 0 100px 200px 100px;
+    margin: 0 100px 70px 100px;
 }
 
 .heading h1 {
     font-size: 8vh;
     font-family: 'Indie Flower', cursive;
+    margin-top: 5px;
+}
+.heading h1:first-child {  
+    margin-top: 50px;
 }
 
 .heading h1 span {
@@ -38,7 +42,7 @@ body {
 }
 
 .heading h3 {
-    font-size: 5vh;
+    font-size: 4vh;
     font-family: 'Alegreya Sans', sans-serif;
     margin: 2vh 0;
 }
