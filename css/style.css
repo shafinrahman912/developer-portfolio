@@ -1,6 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
 body {
 
     font-family: 'Alegreya Sans', sans-serif;
-    font-family: 'Fuggles', cursive;
+    /* font-family: 'Fuggles', cursive;
+    font-family: 'Indie Flower', cursive; */
+}
+/* intro started */
+.similar-width {
+    width: 50%;
+}
+.intro{
+    background-image: url(../images/top-banner.png);
+    background-repeat: no-repeat;
+   
+}
+
+.container {
+    display: flex;
+    margin: 0 100px;
+}
+
+.intro-heading h1 {
+    font-size: 8vh;
     font-family: 'Indie Flower', cursive;
+}
+
+.intro-heading h1 span {
+    color: #FFA500;
+}
+
+.intro-heading h3 {
+    font-size: 5vh;
+    font-family: 'Alegreya Sans', sans-serif;
+    margin: 2vh 0;
+}
+
+.intro-body p{
+    font-size: 3vh;
+    padding: 20px 0;
+    margin: 20px 0;
+    color:#696969
+}
+
+
+.hire-me-btn {
+    text-decoration: none;
+    background-image: linear-gradient(#F88567, #FFA500);
+    border-radius: 20px;
+    font-size: 25px;
+    font-family: 'Indie Flower', cursive;
+    padding: 10px 20px;
+    color: white;
+
+
+}
+
+.intro-img img {
+    width: 100%;
+
 }
